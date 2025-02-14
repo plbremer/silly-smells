@@ -4,9 +4,19 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+packages = [
+    { include = "silly_smells" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+notebook = "^7.3.2"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+scipy = "^1.15.1"
+rdkit = "^2024.9.5"
+scikit-learn = "^1.6.1"
 
 
 [build-system]
